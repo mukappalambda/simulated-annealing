@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "simulated-annealing"
+version = "0.1.0"
+description = ""
+authors = ["mukappalambda <maokailan24@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simulated_annealing"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
